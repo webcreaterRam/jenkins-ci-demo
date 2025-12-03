@@ -1,11 +1,9 @@
 {
   "name": "jenkins-ci-demo",
   "version": "1.0.0",
-  "main": "src/app.js",
+  "main": "app.js",
   "scripts": {
-    "test": "jest"
-  },
-  "devDependencies": {
-    "jest": "^29.0.0"
+    "build": "echo Building Node.js app...",
+    "test": "node test.js"
   }
 }
